@@ -13,7 +13,7 @@ The **Question Paper Generator** app is developed using **Node.js**. Its primary
 1. Specify the total marks according to your needs in the `main.js` file, under the variable named `total_marks`. (default is set to 100).
 2. Adjust the marks distribution for each difficulty level in the `questionStore.js` file for each question.
 3. Adjust the number of questions required for each section in the `main.js` file under the variable `difficulty_distribution`. This variable represents the distribution of questions across different difficulty levels. Modify the values according to your preferences for the easy, medium, and hard levels.
-4. Execute the command `npm start`, in the directory's command prompt.
+4. Execute the command `npm start`, in the directory's command prompt to run the application.
 
 ## 3. File Description 📂:
 1. `main.js`: Orchestrates the generation of question papers based on predefined question banks and difficulty distributions.
