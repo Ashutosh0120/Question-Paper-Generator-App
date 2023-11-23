@@ -14,7 +14,9 @@ const question_paper = Paper_Generate(
 );
 const Question_Set = groupQuestionsByDifficulty(question_paper);
 
-console.log(chalk.bold.green("\n Question Paper:"));
+console.log(chalk.bold.green("\nQuestion Paper:\n"));
+console.log(chalk.bold.red("Total Marks: ",total_marks),"\n");
+
 Question_Set.forEach((group, groupIndex) => {
   console.log(chalk.bold(`\nSection ${groupIndex + 1} (${group[0].difficulty}):`));
   const table_data = group.map(
