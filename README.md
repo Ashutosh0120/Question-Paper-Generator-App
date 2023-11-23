@@ -1,7 +1,7 @@
 # <div align="center">Question Paper Generator App</div>
 
 <div align="center">
-  <img src="https://github.com/Ashutosh0120/Question-Paper-Generator/assets/24804042/6a7a18e8-457d-4536-ae7e-24cc42bac11b" alt="image" width="650" height="450">
+  <img src="https://github.com/Ashutosh0120/Question-Paper-Generator-App/assets/24804042/0cceec07-34f5-4c25-b14b-c05092072089" alt="image" width="650" height="450">
 </div>
 
 ## 1. Introduction 📜:
