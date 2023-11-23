@@ -7,6 +7,8 @@
 ## 1. Introduction:
 The **Question Paper Generator** app is developed using Node.js. Its primary function is to generate question papers by employing predefined question banks and mark distributions for different difficulty levels.
 
+_Note_: After each execution step, the app will generate unique set of questions from the question bank.
+
 ## 2. Steps to run application:
 1. Specify the total marks according to your needs in the `main.js` file, under the variable named `total_marks`. (default is set to 100).
 2. Adjust the marks distribution for each difficulty level in the `questionStore.js` file for each question.
