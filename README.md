@@ -23,6 +23,6 @@ The **Question Paper Generator** app is developed using Node.js. Its primary fun
 ## 4. Demo to run the application:
 1. Download the project directory in your system.
 2. Open the directory.
-3. Open Command Prompt (cmd) inside the main folder `Ashutosh_Reelo_assignment` or run the terminal inside the VSCODE application.
+3. Open Command Prompt (cmd) inside the main folder directory or run the terminal inside the VSCODE application.
 4. Run the command `npm start`, and hit `Enter`.
 5. A question paper will be generated as an output.
