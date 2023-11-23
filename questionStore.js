@@ -1,0 +1,41 @@
+const fs = require('fs');
+const path = require('path');
+const Question_Set = [
+  { "question": "What is the capital of France?", "subject": "Geography", "topic": "Geography", "difficulty": "Easy", "marks": 2 },
+  { "question": "Who wrote 'Romeo and Juliet'?", "subject": "Literature", "topic": "Shakespeare", "difficulty": "Easy", "marks": 2 },
+  { "question": "What is the square root of 144?", "subject": "Mathematics", "topic": "Algebra", "difficulty": "Easy", "marks": 2 },
+  { "question": "What is the main component of the Earth's atmosphere?", "subject": "Science", "topic": "Atmosphere", "difficulty": "Easy", "marks": 2 },
+  { "question": "Who is known as the 'Father of Computer'?", "subject": "Computer Science", "topic": "History", "difficulty": "Easy", "marks": 2 },
+  { "question": "What is the formula for water?", "subject": "Chemistry", "topic": "Compounds", "difficulty": "Easy", "marks": 2 },
+  { "question": "In which year did World War I start?", "subject": "History", "topic": "World War I", "difficulty": "Easy", "marks": 2 },
+  { "question": "What is the currency of Japan?", "subject": "Economics", "topic": "Currencies", "difficulty": "Easy", "marks": 2 },
+  { "question": "Who discovered penicillin?", "subject": "Biology", "topic": "Medicine", "difficulty": "Easy", "marks": 2 },
+  { "question": "What is the formula for the area of a rectangle?", "subject": "Mathematics", "topic": "Geometry", "difficulty": "Easy", "marks": 2 },
+
+  { "question": "Solve the equation x^2 - 4x + 4 = 0", "subject": "Mathematics", "topic": "Algebra", "difficulty": "Medium", "marks": 5 },
+  { "question": "Explain the law of demand.", "subject": "Economics", "topic": "Microeconomics", "difficulty": "Medium", "marks": 5 },
+  { "question": "Who discovered the theory of relativity?", "subject": "Physics", "topic": "Quantum Physics", "difficulty": "Medium", "marks": 5 },
+  { "question": "What is the formula for photosynthesis?", "subject": "Biology", "topic": "Botany", "difficulty": "Medium", "marks": 5 },
+  { "question": "Define the term 'algorithm.'", "subject": "Computer Science", "topic": "Programming", "difficulty": "Medium", "marks": 5 },
+  { "question": "What is the purpose of the United Nations?", "subject": "Political Science", "topic": "International Organizations", "difficulty": "Medium", "marks": 5 },
+  { "question": "Who wrote 'The Great Gatsby'?", "subject": "Literature", "topic": "American Literature", "difficulty": "Medium", "marks": 5 },
+  { "question": "What is the formula for the volume of a cylinder?", "subject": "Mathematics", "topic": "Geometry", "difficulty": "Medium", "marks": 5 },
+  { "question": "Name the planets in our solar system.", "subject": "Science", "topic": "Astronomy", "difficulty": "Medium", "marks": 5 },
+  { "question": "What is the concept of supply and demand?", "subject": "Economics", "topic": "Microeconomics", "difficulty": "Medium", "marks": 5 },
+
+  { "question": "Explain the theory of relativity.", "subject": "Physics", "topic": "Quantum Physics", "difficulty": "Hard", "marks": 10 },
+  { "question": "Derive the formula for the area of a circle.", "subject": "Mathematics", "topic": "Geometry", "difficulty": "Hard", "marks": 10 },
+  { "question": "What are the properties of noble gases?", "subject": "Chemistry", "topic": "Elements", "difficulty": "Hard", "marks": 10 },
+  { "question": "Discuss the impact of globalization on world economies.", "subject": "Economics", "topic": "Globalization", "difficulty": "Hard", "marks": 10 },
+  { "question": "Explain the process of cell division.", "subject": "Biology", "topic": "Cell Biology", "difficulty": "Hard", "marks": 10 },
+  { "question": "Describe the structure of the atom.", "subject": "Physics", "topic": "Quantum Physics", "difficulty": "Hard", "marks": 10 },
+  { "question": "Discuss the causes and consequences of the Industrial Revolution.", "subject": "History", "topic": "Industrial Revolution", "difficulty": "Hard", "marks": 10 },
+  { "question": "What are the principles of object-oriented programming?", "subject": "Computer Science", "topic": "Programming", "difficulty": "Hard", "marks": 10 },
+  { "question": "Examine the role of enzymes in biological processes.", "subject": "Biology", "topic": "Biochemistry", "difficulty": "Hard", "marks": 10 },
+  { "question": "Discuss the impact of climate change on ecosystems.", "subject": "Environmental Science", "topic": "Climate Change", "difficulty": "Hard", "marks": 10 }
+];
+
+const questionStorePath = path.join(__dirname, 'questionStore.json');
+fs.writeFileSync(questionStorePath, JSON.stringify(Question_Set, null, 2));
+
+module.exports = Question_Set;
