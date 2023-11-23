@@ -1,4 +1,4 @@
-# <div align="center">Question Paper Generator</div>
+# <div align="center">Question Paper Generator App</div>
 
 <div align="center">
   <img src="https://github.com/Ashutosh0120/Question-Paper-Generator/assets/24804042/4aa25aba-b809-441e-9cb0-f9ef76471f3e" alt="image" width="650" height="450">
