@@ -5,7 +5,7 @@
 </div>
 
 ## 1. Introduction 📜:
-The **Question Paper Generator** app is developed using Node.js. Its primary function is to generate question papers by employing predefined question banks and mark distributions for different difficulty levels.
+The **Question Paper Generator** app is developed using **Node.js**. Its primary function is to generate question papers by employing predefined question banks and mark distributions for different difficulty levels.
 
 **_Note_**: After each execution step, the app will generate unique set of questions from the question bank.
 
